@@ -6,9 +6,24 @@ en función de la iluminación ambiental.
 Se compone de un medidor de luz, un motor paso a paso conectado a la puerta,
 varios botones y una placa Arduino.
 
-## Installation
+## Componentes
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
+### Motor paso a paso
+
+NEMA 17HS4401 - A4988
+1.7A (12V) 1.5ohm
+Voltaje bobina: 1,7*1,15=1,955V
+Vref = 1,7 * (8 x 0,1) * 70% = 0.952
+1,8º por paso -> 200 pasos por vuelta
+
+### Luxómetro
+
+BH1750
+
+### Placa Arduino
+
+Arduino Micro
+
 
 ```bash
 pip install foobar
