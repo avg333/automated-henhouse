@@ -1,6 +1,10 @@
-# Foobar
+# Gallinero
 
-Foobar is a Python library for dealing with word pluralization.
+Programa en Arduino para la apertura y cierre automático de un gallinero
+en función de la iluminación ambiental.
+
+Se compone de un medidor de luz, un motor paso a paso conectado a la puerta,
+varios botones y una placa Arduino.
 
 ## Installation
 
