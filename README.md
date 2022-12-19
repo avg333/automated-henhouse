@@ -1,4 +1,4 @@
-# Gallinero
+# Automated Henhouse
 
 Programa en Arduino para la apertura y cierre automático de un gallinero
 en función de la iluminación ambiental.
